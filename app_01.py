@@ -10,7 +10,7 @@ db = client['Clientes']
 collection = db['Barbearia']
 
 
-st.title('Barber Family - Agendamentos' )
+st.title('Salão de Beleza - Agendamentos' )
 #st.link_button('agendamento.py', 'https://th.bing.com/th/id/OIP.6uIqhC18JF71pZpuLZhHCwHaEK?rs=1&pid=ImgDetMain')
 
 # Função para verificar a disponibilidade do horário
