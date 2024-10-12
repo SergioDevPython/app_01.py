@@ -60,7 +60,7 @@ services_list = {
 
 # Formulário de agendamento
 name = st.text_input('Nome:')
-profissional = st.selectbox('Escolha o profissional', ["01 - Júnior", "02 - Danilo", "03-Franklin"])
+profissional = st.selectbox('Escolha o profissional', ["Profissional 01", "Profissional 02", "Profissional 03"])
 cpf = st.text_input('CPF:')
 date = st.date_input('Data:', datetime.date.today())
 time = st.time_input('Hora:', datetime.time(9, 0))
